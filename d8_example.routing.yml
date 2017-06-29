@@ -1,0 +1,39 @@
+d8_example.content:
+  path: '/content'
+  defaults:
+    _controller: '\Drupal\d8_example\Controller\BasicController::content'
+    _title: 'D8 Example'
+  requirements:
+    _permission: 'generate example content'
+
+d8_example.basic:
+  path: '/d8-example-basic'
+  defaults:
+    _controller: '\Drupal\d8_example\Controller\ExampleController::basic'
+    _title: 'D8 Example'
+  requirements:
+    _permission: 'generate example content'
+
+d8_example.direct_access:
+  path: '/d8-example-direct-access'
+  defaults:
+    _controller: '\Drupal\d8_example\Controller\ExampleController::directAccess'
+    _title: 'D8 Example'
+  requirements:
+    _permission: 'generate example content'
+
+d8_example.using_dependency:
+  path: '/d8-example-dependency'
+  defaults:
+    _controller: '\Drupal\d8_example\Controller\ExampleController::usingDependencyInjection'
+    _title: 'D8 Example'
+  requirements:
+    _permission: 'generate example content'
+
+d8_example.using_template:
+  path: '/d8-example-template'
+  defaults:
+    _controller: '\Drupal\d8_example\Controller\ExampleController::usingTemplate'
+    _title: 'D8 Example'
+  requirements:
+    _permission: 'generate example content'

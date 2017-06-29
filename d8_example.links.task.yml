@@ -1,0 +1,23 @@
+d8_example.basic:
+  route_name: d8_example.basic
+  title: D8 Example1
+  base_route: d8_example.basic
+  weight: 10
+
+d8_example.direct_access:
+  route_name: d8_example.direct_access
+  title: D8 Example using Direct Access
+  base_route: d8_example.basic
+  weight: 20
+
+d8_example.using_dependency:
+  route_name: d8_example.using_dependency
+  title: D8 Example using Dependency Injection
+  base_route: d8_example.basic
+  weight: 30
+
+d8_example.using_template:
+  route_name: d8_example.using_template
+  title: D8 Example using Template
+  base_route: d8_example.basic
+  weight: 40

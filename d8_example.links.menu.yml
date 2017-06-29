@@ -1,0 +1,6 @@
+d8_example.example_link:
+  title: 'D8 Example'
+  description: 'Example of how to make a menu link'
+  parent: system.admin_config_development
+  route_name: d8_example.basic
+  weight: 100

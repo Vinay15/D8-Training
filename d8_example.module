@@ -1,0 +1,13 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+function d8_example_theme($existing, $type, $theme, $path) {
+
+  return [
+    'example_block' => [
+      'variables' => ['message' => NULL]
+    ],
+  ];
+}

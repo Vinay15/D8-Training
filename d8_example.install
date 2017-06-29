@@ -1,0 +1,12 @@
+<?php
+
+use Drupal\user\RoleInterface;
+
+/**
+ * Implements hook_install().
+ */
+function d8_example_install() {
+  user_role_change_permissions(RoleInterface::AUTHENTICATED_ID, array(
+    'generate example content' => TRUE,
+  ));
+}

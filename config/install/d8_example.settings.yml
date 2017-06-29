@@ -1,0 +1,5 @@
+d8_example:
+  name: 'Vinay Abhang'
+  page_title: 'D8 Example Page Title'
+  source_text: 'D8 Example Content D8 Example Content D8 Example Content D8 Example Content D8 Example Content D8 Example Content.'
+  langcode: 'en'
